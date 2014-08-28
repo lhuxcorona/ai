@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="monitoreo" namespace="/monitoreo" extends="hibernate-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>           
+		<interceptors>
+			<interceptor name="chksession" class="com.maxcom.ai.interceptor.SessionInterceptor" />
+		</interceptors>		
+		<global-results>
+			<result name="session" type="redirect"><param name="location">/</param></result>
+		</global-results>	
+		 <action name="proceso" method="proceso" class="com.maxcom.ai.action.monitoreo.DeProcesoAction">
+			<interceptor-ref name="chksession"/>		 
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">proceso</result>
+            <result name="input" type="tiles">proceso</result>
+        </action> 
+         <action name="consultarProceso" method="consultarProceso" class="com.maxcom.ai.action.monitoreo.DeProcesoAction">
+         	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">proceso</result>
+            <result name="input" type="tiles">proceso</result>
+        </action>
+        <action name="logs" method="logs" class="com.maxcom.ai.action.monitoreo.LogAplicacionAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">logs</result>
+            <result name="input" type="tiles">logs</result>
+        </action>
+        <action name="consultarLog" method="consultarLog" class="com.maxcom.ai.action.monitoreo.LogAplicacionAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">logs</result>
+            <result name="input" type="tiles">logs</result>
+        </action>
+         <action name="reportarLog" method="reportarLog" class="com.maxcom.ai.action.monitoreo.LogAplicacionAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">session</result>
+            <result name="input" type="tiles">session</result>
+        </action>
+         <action name="reportarProceso" method="reportarProceso" class="com.maxcom.ai.action.monitoreo.DeProcesoAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">session</result>
+            <result name="input" type="tiles">session</result>
+        </action>
+    </package>	
+</struts>

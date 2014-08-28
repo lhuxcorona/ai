@@ -1,0 +1,144 @@
+/* Maquetacion */line
+body {font-family:Helvetica; color: #777; padding:0;margin:0 }
+#contenido { width: 800px; margin:auto;}
+#encabezado {float:right;}
+#bienvenida{margin:auto;width:80%;}
+#bienvenida #principal {float:left; width:23%;}
+#bienvenida #secundario {float:left; width:77%; border-bottom: 1px solid #d31245;}
+#oculto{ display: none; }
+#mensajesApp {color: #909090;;  font-family:Helvetica; font-size: 12px; font-weight: normal;}
+#mensajesApp li{list-style: none;}
+#msjApp { display: none; color: #909090;  font-family:Helvetica; font-size: 12px; font-weight: normal;}
+#msjApp li{list-style: none;}
+.session { color: #909090;  font-family:Helvetica; font-size: 12px; font-weight: normal; float:right; }
+#dialogo{color: #000;  font-family:Helvetica; font-size: 12px; font-weight: normal;}
+#dialogo li{list-style: none;}
+img.pointer{ cursor:pointer;cursor:hand }
+/* Encabezados */
+h1,h3,h4{ margin:5px 0; }
+h1 { margin: 0 0 0px; color: #d31245; font-size:14px; font-weight: BOLD; font-family:Helvetica; display: inline}
+h2 {color: #909090;;  font-family:Helvetica; font-size: 12px; font-weight: normal;}
+p { clear: both;  margin: 0 0 15px; font-family:Helvetica; font-size: 12px; font-weight: normal; color: #909090;}
+.line { clear: both; border-bottom: 1px solid #ddd; margin: 0 0 0px; width: 80%; align: center}
+.clear { clear: both; }
+/* Formularios */
+input,select,.btnSimple {border:1px solid #e8e8e8;background:#f8f8f8; font-size: 12px; color: #909090;}
+textarea {border:1px solid #e8e8e8;background:#f8f8f8; font-size: 12px; color: #000000; font-family:Helvetica;}
+fieldset{padding: 10px;}
+fieldset.clear div{ clear:both; margin:5px 0; }
+legend{ color:#d31245; font-size:14px; font-weight:normal;  font-family:Helvetica; }
+label {display: block;  margin: 5px 0; color:#000;  font-family:Helvetica; font-weight:normal; font-size: 12px; padding: 1px 2px;}
+input.submit { background: #d31245; border: 1px; font-weight: bold; font-size:12px; color:#ffffff}
+.accion{ text-align:center; margin: 0px auto; border-top-width: 1px; border-top-style: solid; border-top-color: #DDD;padding: 5px 0;  }
+td.radio label, div.inline label, div.clear label{ display:inline }
+label.left{ width:150px; }
+label.left1{ width:200px; display:block; float:left; }
+.formulario{ display:block; float:left; margin-right:10px; }
+button span{ display:none; }
+/* Tablas */
+table{ border-collapse:collapse; margin: 5px 0;}
+table,th, td { border: 1px solid #DDD;  font-family:Helvetica; font-size: 12px;  }
+table.clean, table.clean td{ border:none;}
+tbody tr:hover{ background-color:#F6F6F6; }
+th{ color:#000;  background-color:#ECECEC; padding:2px; font-weight:bold;}
+th.clean{ color:#000;  background-color:#ffffff; padding:2px; font-weight:bold; border:none;}
+.td1{ color:#000;  background-color:#ECECEC; padding:2px; font-weight:bold; font-family:Helvetica; text-align:center;}
+.td2{border-bottom-width: 0.5px; border-bottom-style: solid; border-bottom-color: #d31245; }
+th.column{ text-align: left; }
+table.simple { border:none; }
+table.clean strong{ color:#3E3E3E; }
+#espera {display:none; vertical-align:middle; text-align:center; position:fixed; left:0; top:0; width:100%; height:100%; background-color:#EEE; opacity:0.8;  z-index:99; }
+#img-espera{ height: 200px;	left: 50%; margin-left: -320px; margin-top: -151px; opacity: 1; position: absolute; top: 50%; width: 641px; z-index: 100;}
+#texto-espera{	clear: both; color:#6a6969; height: 15px; left: 45%; margin-left: -5px; margin-top: 130px; position: fixed; top: 17%; font-family:Helvetica;  font-size: 12px; font-weight:bold; z-index: 99990;}
+.label1{display: inline;  margin:  5px 0; text-decoration:underline; font-family:Helvetica; font-weight:normal; font-size: 12px; color:#d31245;}
+.withborder{border: 1px solid #ddd; padding: 5px 5px 5px 18px; font-family:Helvetica; font-size: 12px; font-weight:bold;}
+.withborderbottom{border-bottom: 1px solid #ddd;  border-right: 1px solid #ddd; border-left: 1px solid #ddd; padding: 5px 5px 5px 18px; font-family:Helvetica; font-size: 12px;}
+div.borderBottom {border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d31245; padding: 0px 0px 0px 0px;}
+div.tamanio{ display: inline; border:1px;  width:80%; color:#ffffff;}
+.boton2{border:1px solid #ba8537; background-color:#d31245; color:#ffffff;  font-family:Helvetica, Arial, Tahoma, Verdana; font-weight:bold; font-size: 12px;  padding: 2px 2px 2px 2px; cursor:pointer; cursor: hand}
+.label2 { display: inline; margin: 0px 0; color:#6d6e70;  font-family:Helvetica; font-weight:normal; font-size: 18px; font-style:oblique}
+.label3 { margin: 0px 0; color:#6d6e70;  font-family:Helvetica; font-weight:normal; font-size: 28px; font-style:oblique}
+.label4 { margin: 0px 0; color:#6d6e70;  font-family:Helvetica; font-weight:normal; font-size: 26px; }
+.label5 { margin: 0px 0; color:#909090;  font-family:Helvetica; font-weight:normal; font-size: 12px; }
+label.izq{ width:180px; display:block; float:left; font-weight:bold; font-size: 12px;}
+label.derecho{ width:180px; display:block; float:left; text-align:right;font-weight:bold; font-size: 12px; }
+.resultadoReproceso { margin: 0 auto; width: 250px; height: 180px; padding: 0.5em 0.5em 0.5em 0.5em; border:1px solid #ccc; background-color:#F0F0F0 ;}
+.cgdo { margin: 0 auto;}
+.ayuda_g a{	width:20px; height:20px; float:left; margin-right:10px; background-image:url(../images/ayudaOff.jpg);background-repeat:no-repeat;}
+.ayuda_g a:hover{width:20px; height:20px; float:left; margin-right:10px; background-image:url(../images/ayudaOn.jpg); background-repeat:no-repeat;}
+.grafica a{	width:32px; height:32px; float:left; margin-right:10px; background-image:url(../images/grafica.png);background-repeat:no-repeat;}
+.exporta_csv a{	width:32px; height:32px; float:left; margin-right:10px; background-image:url(../images/excel_color.png);background-repeat:no-repeat;}
+.exporta_csv a:hover{width:32px; height:32px; float:left; margin-right:10px; background-image:url(../images/excel_gris.png); background-repeat:no-repeat;}
+.exporta_txt a{	width:32px; height:32px; float:left; margin-right:10px; background-image:url(../images/txt_color.png);background-repeat:no-repeat;}
+.exporta_txt a:hover{ width:32px; height:32px; float:left; margin-right:10px; background-image:url(../images/txt_gris.png); background-repeat:no-repeat;}
+.usuario a{	width:27px; height:18px; float:left; background-image:url(../images/usersOff.png); background-repeat:no-repeat;}
+.usuario a:hover{width:27px; height:18px; margin: 0 auto; display: block; background-image:url(../images/usersOn.png); background-repeat:no-repeat;}
+a.regresar:link {width:80px; height:22px;float:left;margin-right:10px;background-image:url(../images/regresar.png);background-repeat:no-repeat;}
+input[type="text"]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {border-color: #BA8537;color: #000;}
+#reporte {margin: 0 auto; padding: 2px 30px 2px 2px; text-align:right; font-size:12px; font-weight: normal; font-family:Helvetica;}
+#reporte a{color:#d31245;}
+#reporte a:hover{color:#000;text-decoration:none;}
+table.resul_reproceso, table.resul_reproceso td{ border:none; padding: 2px 10px 10px 18px;}
+table.displaytag             { border: 1px solid #DDD;  font-family:Helvetica; font-size: 12px; width: 100%;  }
+table.displaytag td          { padding: 2px 4px 2px 4px; text-align: left; vertical-align: top; max-width: 300px; }
+#selectorNumeroRegistros	 { position: absolute; display:inline; left:850px; }
+#informacionTabla			 { margin:15px 0px; font-size:12px; font-family:Helvetica; color:#000;}
+#paginaSeleccionada			 { font-size:12px; font-family:Helvetica; color:#ffffff; font-weight:bold; padding: 2px 3px; margin: 4px 3px; text-align:center; background:#d31245;}
+#primeraPagina				 { font-size:14px; font-family:Helvetica; text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000;}
+#primeraPagina span			 { font-size: 14px; color:#ffffff; }
+#paginaSiguiente 			 { font-size:14px; font-family:Helvetica; text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000;}
+#paginaSiguiente span		 { font-size: 14px; color:#ffffff;}
+#paginaAnterior 			 { text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000; color:#ffffff; }
+#paginaAnterior span		 { font-size:14px; color:#ffffff; }
+#ultimaPagina 				 { font-size:14px; font-family:Helvetica; text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000;}
+#ultimaPagina span			 { font-size: 14px; color:#ffffff; font-weight:bold;}
+#primeraPaginaNoActiva		 { text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000; color:#ffffff;}
+#paginaSiguienteNoActiva	 { text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000; color:#ffffff; }
+#paginaAnteriorNoActiva		 { text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000; color:#ffffff;}
+#ultimaPaginaNoActiva		 { text-decoration: none; cursor: pointer; font-weight:bold; margin: 4px 3px; text-align:center; background:#000; color:#ffffff;}
+span.pagina	a				 { text-decoration: none;  padding: 0px 3px; margin: 1px; cursor: pointer; font-size:12px; font-family:Helvetica; }
+span.pagina	a:hover			 { text-decoration: none; border:1px solid #f8f8f8; padding: 0px 2px; font-weight:bold; background:#f8f8f8;}
+.requerido                   { color:#B82323; font-size: .9em; padding:0px 5px 0px 0px;}
+.norequerido                 { color:#ffffff; font-size: .9em; padding:0px 5px 0px 0px;}
+.tooltip                     { width:220px; display:none; word-wrap: break-word; background-color:#FFFFFF; color:#AE2222; font-size:11px; padding:10px; position:absolute; z-index:1000; border:1px solid #D20202; text-decoration:none; margin-left:0px; margin-top:5px;   font-family:Arial, Helvetica, sans-serif;}
+div.scroll					 { width: 600px;   height:50px; overflow: auto;border: 1px solid #EEE;font-size:.84em; }
+#login {
+  	width: 180px; 
+  	height: auto;
+  	background: #eeeeee; /* Old browsers */
+  	height: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	filter: progid : DXImageTransform.Microsoft.gradient ( GradientType = 0,
+		startColorstr = '#F0F0F0', endColorstr = '#FEFEFE' );
+	background: -webkit-gradient(linear, 0% 0, 0% 100%, from(#F0F0F0),
+		to(#FEFEFE) );
+	background: -moz-linear-gradient(270deg, #F0F0F0, #FEFEFE);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+	clear: both;
+	overflow: hidden;
+	padding: 10px;
+	margin-bottom: 10px; 
+	margin: 0 auto;
+}
+.propiedad {float: left; padding-left: 10px; padding-top: 10px; width: 300px;   height:50px; overflow: auto;border: 1px solid #EEE;}
+.etiqueta{float: left; 	: 112px; margin-left: 10px; margin-top: 8px;width: 151px;}
+a.botonVerDetalles:link { margin: auto; background-image: url(../images/detallesOff.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer; }
+a.botonVerDetalles:hover {margin: auto; background-image:url(../images/detallesOn.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.editar:link {margin: auto; background-image:url(../images/editOff.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px;  outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.editar:hover {margin: auto; background-image:url(../images/editOn.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.borrar:link {margin: auto; background-image:url(../images/eliminarOff.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px;  outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.borrar:hover {margin: auto; background-image:url(../images/eliminarOn.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.inhabilitar:link {margin: auto; background-image:url(../images/inhabilitarOff.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px;  outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.inhabilitar:hover {margin: auto; background-image:url(../images/inhabilitar.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.habilitar:link {margin: auto; background-image:url(../images/inhabilitarOff.png); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px;  outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.habilitar:hover {margin: auto; background-image:url(../images/habilitar.jpg); background-position: center center; height:25px; width:25px; background-repeat: no-repeat; display: block; padding: 0px 3px; outline: none; text-decoration: none; font-size:0.8em; cursor:pointer;}
+a.boton:link {border:1px solid #ba8537; background-color:#d31245; color:#ffffff; font-family:Helvetica; font-weight:bold; font-size: 12px;  padding: 3.5px; cursor:pointer; cursor: hand;text-decoration: none;}
+a.boton:hover {border:1px solid #ba8537; background-color:#d31245; color:#ffffff;  font-family:Helvetica; font-weight:bold; font-size: 12px;  padding: 3.5px; cursor:pointer; cursor: hand;}
+a.boton:visited{	border:1px solid #ba8537; background-color:#d31245; color:#ffffff;  font-family:Helvetica; font-weight:bold; font-size: 12px;  padding: 3.5px; cursor:pointer; cursor: hand;}
+.prueba{ width:50%;  float:left;}
+
+

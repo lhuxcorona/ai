@@ -1,0 +1,40 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/src/com/maxcom/ai/interceptor
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-09T15:14:33.747000Z
+8
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+SessionInterceptor.java
+file
+
+
+
+
+2012-10-24T18:19:29.841595Z
+219267e6418c7daaf3092ba14055397a
+2012-10-09T15:14:33.747000Z
+8
+admin
+

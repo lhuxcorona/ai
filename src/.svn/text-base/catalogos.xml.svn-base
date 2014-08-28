@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="catalogos" namespace="/catalogos" extends="hibernate-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>           
+		<interceptors>
+			<interceptor name="chksession" class="com.maxcom.ai.interceptor.SessionInterceptor" />
+		</interceptors>		
+		<global-results>
+			<result name="session" type="redirect"><param name="location">/</param></result>
+		</global-results>	
+		<!-- *************************** ABC Puntos de Control ************************** -->		
+		<action name="puntosDeControl" method="puntosDeControl" class="com.maxcom.ai.action.catalogos.PuntoControlAction">
+			<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">puntosDeControl</result>
+            <result name="input" type="tiles">puntosDeControl</result>
+        </action>
+        <action name="agregarEditarPC" method="agregarEditarPC" class="com.maxcom.ai.action.catalogos.PuntoControlAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/puntosDeControl.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/puntosDeControl.jsp</result>
+        </action>
+        <action name="datosPC" method="datosPC" class="com.maxcom.ai.action.catalogos.PuntoControlAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/agregarEditarPC.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/agregarEditarPC.jsp</result>
+        </action>
+        <action name="eliminarPC" method="eliminarPC" class="com.maxcom.ai.action.catalogos.PuntoControlAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/listaPC.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/listaPC.jsp</result>
+        </action>
+        <!-- ************************************ ABC Reglas de Negocio ************************************ -->
+        <action name="reglasNegocio" method="reglasNegocio" class="com.maxcom.ai.action.catalogos.ReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">reglasNegocio</result>
+            <result name="input" type="tiles">reglasNegocio</result>
+        </action>
+        <action name="agregarEditarRN" method="agregarEditarRN" class="com.maxcom.ai.action.catalogos.ReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/ReglasNegocio/reglasNegocio.jsp</result>
+            <result name="input">/WEB-INF/paginas/ReglasNegocio/reglasNegocio.jsp</result>
+        </action>
+        <action name="datosRN" method="datosRN" class="com.maxcom.ai.action.catalogos.ReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/ReglasNegocio/agregarEditarRN.jsp</result>
+            <result name="input">/WEB-INF/paginas/ReglasNegocio/agregarEditarRN.jsp</result>
+        </action>
+        <action name="eliminarRN" method="eliminarRN" class="com.maxcom.ai.action.catalogos.ReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/ReglasNegocio/listaRN.jsp</result>
+            <result name="input">/WEB-INF/paginas/ReglasNegocio/listaRN.jsp</result>
+        </action>
+        <!-- ************************************ ABC Tarifas ************************************ -->
+        <action name="tarifas" method="tarifas" class="com.maxcom.ai.action.catalogos.TarifasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">tarifas</result>
+            <result name="input" type="tiles">tarifas</result>
+        </action>
+        <action name="agregarEditarTarifa" method="agregarEditarTarifa" class="com.maxcom.ai.action.catalogos.TarifasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Tarifas/tarifas.jsp</result>
+            <result name="input">/WEB-INF/paginas/Tarifas/tarifas.jsp</result>
+        </action>
+        <action name="datosTarifa" method="datosTarifa" class="com.maxcom.ai.action.catalogos.TarifasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Tarifas/agregarEditarTarifa.jsp</result>
+            <result name="input">/WEB-INF/paginas/Tarifas/agregarEditarTarifa.jsp</result>
+        </action>
+        <action name="eliminarTarifa" method="eliminarTarifa" class="com.maxcom.ai.action.catalogos.TarifasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Tarifas/listaTarifas.jsp</result>
+            <result name="input">/WEB-INF/paginas/Tarifas/listaTarifas.jsp</result>
+        </action>
+         <!-- ************************************ ABC Centrales ************************************ -->
+        <action name="centrales" method="centrales" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">centrales</result>
+            <result name="input" type="tiles">centrales</result>
+        </action>
+        <action name="detalleCentral" method="detalleCentral" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Centrales/detalleCentrales.jsp</result>
+            <result name="input">/WEB-INF/paginas/Centrales/detalleCentrales.jsp</result>
+        </action>
+        <action name="agregarEditarCentral" method="agregarEditarCentral" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Centrales/centrales.jsp</result>
+            <result name="input">/WEB-INF/paginas/Centrales/centrales.jsp</result>
+        </action>
+        <action name="insertaCampos" method="insertaCampos" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Centrales/agregaCampos.jsp</result>
+            <result name="input">/WEB-INF/paginas/Centrales/agregaCampos.jsp</result>
+        </action>
+        
+        <action name="datosCentral" method="datosCentral" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Centrales/agregarEditarCentral.jsp</result>
+            <result name="input">/WEB-INF/paginas/Centrales/agregarEditarCentral.jsp</result>
+        </action>
+        <action name="eliminarInhabilitarCentral" method="eliminarInhabilitarCentral" class="com.maxcom.ai.action.catalogos.CentralesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Centrales/listaCentrales.jsp</result>
+            <result name="input">/WEB-INF/paginas/Centrales/listaCentrales.jsp</result>
+        </action>
+        
+        <!-- ************************************ ABC Configuracion de Reglas ************************************ -->
+        <action name="configuracionReglas" method="configuracionReglas" class="com.maxcom.ai.action.catalogos.ConfiguracionReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">configReglas</result>
+            <result name="input" type="tiles">configReglas</result>
+        </action>    
+        <action name="agregarEditarConfReglas" method="agregarEditarConfReglas" class="com.maxcom.ai.action.catalogos.ConfiguracionReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/ConfiguracionReglas/configuracionReglas.jsp</result>
+            <result name="input" >/WEB-INF/paginas/ConfiguracionReglas/agregarEditarConfReglas.jsp</result>
+        </action>        
+        <action name="datosMapeoReglas" method="datosMapeoReglas" class="com.maxcom.ai.action.catalogos.ConfiguracionReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/ConfiguracionReglas/agregarEditarConfReglas.jsp</result>
+            <result name="input" >/WEB-INF/paginas/ConfiguracionReglas/agregarEditarConfReglas.jsp</result>
+        </action> 
+        <action name="eliminarConfReglas" method="eliminarConfReglas" class="com.maxcom.ai.action.catalogos.ConfiguracionReglasAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/ConfiguracionReglas/configuracionReglas.jsp</result>
+            <result name="input" >/WEB-INF/paginas/ConfiguracionReglas/configuracionReglas.jsp</result>
+        </action>                
+    </package>	
+</struts>

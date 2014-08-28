@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<!--**************** Definición de master template *************  -->
+	<definition name="masterTemplate" template="/WEB-INF/paginas/template/template.jsp">
+		<put-attribute name="body" value="Here goes the body" />
+	</definition>
+	<definition name="index" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/comunes/login.jsp" />
+	</definition>
+	<definition name="inicio" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/comunes/inicio.jsp" />
+	</definition>
+	<definition name="session" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/comunes/session.jsp" />
+	</definition>
+	<!-- ******************************************************************* -->
+	<!-- ****************** CATALOGOS DE CONFIGURACION ********************* -->
+	<!-- ******************************************************************* -->
+	
+	<!-- ******************* PUNTO DE CONTROL ******************** -->
+	<definition name="puntosDeControl" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/PuntoControl/puntosDeControl.jsp" />
+	</definition>
+	<!-- ******************* REGLAS DE NEGOCIO ******************** -->
+	<definition name="reglasNegocio" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/ReglasNegocio/reglasNegocio.jsp" />
+	</definition>
+	<!-- ******************* TARIFAS ************************** -->
+	<definition name="tarifas" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Tarifas/tarifas.jsp" />
+	</definition>
+	<!-- ******************* CENTRALES ************************** -->
+	<definition name="centrales" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Centrales/centrales.jsp" />
+	</definition>	
+	<!-- ******************* CONFIGURACION DE REGLAS ************************** -->
+	<definition name="configReglas" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/ConfiguracionReglas/configuracionReglas.jsp" />
+	</definition>
+	<!-- ******************* USUARIOS ************************** -->	
+	<definition name="usuarios" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Usuarios/usuarios.jsp" />
+	</definition>
+	<!-- ******************* PERFILES ************************** -->	
+	<definition name="perfiles" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Perfiles/perfiles.jsp" />
+	</definition>	
+	<!-- ******************* REPORTES ************************** -->	
+	<definition name="consultaReportes" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Reportes/consultaReportes.jsp" />
+	</definition>
+	<definition name="reportes" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Reportes/reportes.jsp"/>
+	</definition>
+	<!-- ******************* REPROCESO ************************** -->	
+	<definition name="reproceso" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Reproceso/reproceso.jsp" />
+	</definition>
+	<!-- ******************* MONITOREO ************************** -->		
+	<definition name="logs" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Monitoreo/consultaLogs.jsp" />
+	</definition>	
+	<definition name="proceso" extends="masterTemplate">
+		<put-attribute name="body" value="/WEB-INF/paginas/Monitoreo/consultaDeProceso.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="hibernate.connection.url">jdbc:oracle:thin:@172.16.8.57:1521:maxcom</property>
+		<property name="hibernate.connection.username">USER_MAXCOM</property>
+		<property name="connection.password">treblinka_v</property>
+		<!-- property name="connection.pool_size">5</property> -->
+		<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+		<property name="show_sql">true</property>
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <!-- Timeout en minutos -->
+        <property name="hibernate.c3p0.timeout">300</property><!-- 10 minutos -->
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+        
+        <!-- Catalogos de configuración -->		
+		<mapping class="com.maxcom.ai.domain.PuntosDeControl"/>
+		<mapping class="com.maxcom.ai.domain.ReglasNegocio"/>
+		<mapping class="com.maxcom.ai.domain.Tarifas"/>
+		<mapping class="com.maxcom.ai.domain.vistas.TarifasV"/>
+		<mapping class="com.maxcom.ai.domain.TipoLlamadas"/>
+		<mapping class="com.maxcom.ai.domain.TipoCliente"/>
+		<mapping class="com.maxcom.ai.domain.Centrales"/>
+		<mapping class="com.maxcom.ai.domain.MapeoArchivos"/>
+		<mapping class="com.maxcom.ai.domain.MapeoReglas"/>
+		<mapping class="com.maxcom.ai.domain.Usuarios"/>	
+		<mapping class="com.maxcom.ai.domain.Perfiles"/>
+		<mapping class="com.maxcom.ai.domain.Menu"/>	
+		<mapping class="com.maxcom.ai.domain.TipoCodificacion"/>
+		<mapping class="com.maxcom.ai.domain.LogApp"/>	
+		<mapping class="com.maxcom.ai.domain.Reportes"/>			
+		<mapping class="com.maxcom.ai.domain.vistas.CentralesV"/>
+		<mapping class="com.maxcom.ai.domain.vistas.MapeoReglasV"/>
+		<mapping class="com.maxcom.ai.domain.vistas.UsuariosV"/>
+		<mapping class="com.maxcom.ai.domain.vistas.MenuV"/>	
+		<mapping class="com.maxcom.ai.domain.vistas.LogAppV"/> 	
+		<mapping class="com.maxcom.ai.domain.vistas.ReportesGeneradosV"/>	
+		<mapping class="com.maxcom.ai.domain.vistas.DeProcesoV"/>
+		<mapping class="com.maxcom.ai.domain.vistas.ReportesV"/>	 
+	</session-factory>
+</hibernate-configuration>

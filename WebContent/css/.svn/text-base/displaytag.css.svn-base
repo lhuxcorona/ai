@@ -1,0 +1,24 @@
+/*table{ border-collapse:collapse; margin: 5px 0;}*/
+table.displaytag     { border: 1px solid #DDD;  font-family:Helvetica; font-size: 12px; width: 100%;  }
+table.displaytag td  { padding: 2px 4px 2px 4px; text-align: left; vertical-align: top; max-width: 300px; }
+
+/*	
+ *	Paginación  
+ */
+#selectorNumeroRegistros	{ position: absolute; display:inline; left:850px; }
+#informacionTabla			{ margin:15px 0px; }
+#paginaSeleccionada			{ font-size: 1.0em; color:#AA5544; font-weight:bold; border:2px solid #cccccc; padding: 2px 3px; margin: 4px 3px; text-align:center;}
+#primeraPagina				{ text-decoration: none; cursor: pointer;}
+#primeraPagina span			{ font-size: 1.0em; color:#3358DD; }
+#paginaSiguiente 			{ text-decoration: none; cursor: pointer;}
+#paginaSiguiente span		{ font-size: 1.0em; color:#337ACC; }
+#paginaAnterior 			{ text-decoration: none; cursor: pointer;}
+#paginaAnterior span		{ font-size: 1.0em; color:#337ACC; }
+#ultimaPagina 				{ text-decoration: none; cursor: pointer;}
+#ultimaPagina span			{ font-size: 1.0em; color:#3358DD; }
+#primeraPaginaNoActiva		{ font-size: 1.0em; color:#AAAACC; }
+#paginaSiguienteNoActiva	{ font-size: 1.0em; color:#AAAACC; }
+#paginaAnteriorNoActiva		{ font-size: 1.0em; color:#AAAACC; }
+#ultimaPaginaNoActiva		{ font-size: 1.0em; color:#AAAACC; }
+span.pagina	a				{ text-decoration: none; border:1px solid #cccccc; padding: 0px 3px; margin: 1px; cursor: pointer; }
+span.pagina	a:hover			{ text-decoration: none; border:1px solid #f8f8f8; padding: 0px 2px; font-weight:bold; background:#f8f8f8;}

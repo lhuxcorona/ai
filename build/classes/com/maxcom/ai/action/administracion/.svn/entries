@@ -1,0 +1,52 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/src/com/maxcom/ai/action/administracion
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-19T23:56:28.838000Z
+37
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+PerfilAction.java
+file
+92
+
+
+
+2012-11-30T17:57:41.248650Z
+8dac67b20a53f7edf71511b2744ba7b2
+2012-11-30T17:50:16.060500Z
+92
+admin
+
+UsuariosAction.java
+file
+69
+
+
+
+2012-11-14T18:21:40.839845Z
+5343703695fd3392909d8df7221e0f62
+2012-11-01T00:44:08.593000Z
+69
+admin
+

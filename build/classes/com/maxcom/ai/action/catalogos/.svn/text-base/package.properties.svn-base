@@ -1,0 +1,3 @@
+fecha={0, date,dd-MMM-yyyy}
+porcentaje={0,number,#,###,###,###,###.##}
+

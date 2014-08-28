@@ -1,0 +1,52 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/WebContent/WEB-INF/paginas/ConfiguracionReglas
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-24T00:31:26.999500Z
+39
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+configuracionReglas.jsp
+file
+77
+
+
+
+2012-11-10T01:01:44.616996Z
+750bdf94f7ce6859ce59443e202e94c7
+2012-11-10T16:18:32.346000Z
+77
+admin
+
+agregarEditarConfReglas.jsp
+file
+77
+
+
+
+2012-11-10T00:13:20.498000Z
+0512a2c031262e802418ee78b62c9109
+2012-11-10T16:18:32.346000Z
+77
+admin
+

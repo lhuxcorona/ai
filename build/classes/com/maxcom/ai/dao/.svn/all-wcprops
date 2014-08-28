@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MAXCOM/!svn/ver/44/ai/src/com/maxcom/ai/dao
+END
+MonitoreoDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/dao/MonitoreoDAO.java
+END
+CatalogosDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MAXCOM/!svn/ver/88/ai/src/com/maxcom/ai/dao/CatalogosDAO.java
+END
+ReportesDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/dao/ReportesDAO.java
+END
+AdministracionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/dao/AdministracionDAO.java
+END

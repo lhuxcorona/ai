@@ -1,0 +1,55 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/WebContent
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-25T00:11:10.392000Z
+54
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+META-INF
+dir
+
+error.jsp
+file
+
+
+
+
+2012-10-24T18:19:37.138595Z
+bbcf1605e43546c4abf322959e48eb21
+2012-10-09T15:14:33.747000Z
+8
+admin
+
+images
+dir
+
+WEB-INF
+dir
+
+css
+dir
+
+js
+dir
+

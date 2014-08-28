@@ -1,0 +1,52 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/src/com/maxcom/ai/log
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-09T15:14:33.747000Z
+8
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+AppLogger.java
+file
+59
+
+
+
+2012-10-26T23:55:49.716804Z
+d6898e223fdd69912a1737e02fe1c871
+2012-10-26T23:53:45.718500Z
+59
+admin
+
+Log4jInitServlet.java
+file
+
+
+
+
+2012-10-24T18:19:29.478595Z
+49490d1e43e0a986543e6f03f832b13a
+2012-10-09T15:14:33.747000Z
+8
+admin
+

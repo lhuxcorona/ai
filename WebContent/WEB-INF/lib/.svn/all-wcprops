@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib
+END
+slf4j-jdk14-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/slf4j-jdk14-1.5.8.jar
+END
+jasperreports-4.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/jasperreports-4.7.0.jar
+END
+tiles-core-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/tiles-core-2.0.6.jar
+END
+jsch-0.1.43.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/jsch-0.1.43.jar
+END
+ajaxtags-1.5.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/ajaxtags-1.5.7.jar
+END
+c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/dom4j-1.6.1.jar
+END
+ognl-2.6.11.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/ognl-2.6.11.jar
+END
+hibernate-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/hibernate-validator.jar
+END
+jdom-2.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/jdom-2.0.2.jar
+END
+ojdbc14.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/ojdbc14.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-fileupload-1.2.1.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/servlet-api.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/hibernate-annotations.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-logging-1.1.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/log4j-1.2.15.jar
+END
+struts2-tiles-plugin-2.1.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/struts2-tiles-plugin-2.1.8.1.jar
+END
+jaxen-1.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/jaxen-1.1.3.jar
+END
+ognl-2.7.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/ognl-2.7.3.jar
+END
+ejb3-persistence.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/ejb3-persistence.jar
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+freemarker-2.3.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/freemarker-2.3.15.jar
+END
+tiles-jsp-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/tiles-jsp-2.0.6.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/jta-1.1.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/hsqldb.jar
+END
+struts2-core-2.1.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/struts2-core-2.1.8.1.jar
+END
+commons-io-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-io-1.3.2.jar
+END
+c3p0-oracle-thin-extras-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/c3p0-oracle-thin-extras-0.9.1.2.jar
+END
+bcprov-jdk16-145.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/bcprov-jdk16-145.jar
+END
+commons-digester-1.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-digester-1.8.1.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/mail.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/hibernate3.jar
+END
+commons-codec-1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-codec-1.3.jar
+END
+commons-collections-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-collections-3.1.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/antlr-2.7.6.jar
+END
+tiles-api-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/tiles-api-2.0.6.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-lang-2.3.jar
+END
+displaytag-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/displaytag-1.2.jar
+END
+slf4j-api-1.5.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/slf4j-api-1.5.8.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/activation.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/commons-beanutils-1.8.0.jar
+END
+struts2-fullhibernatecore-plugin-1.4-GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/struts2-fullhibernatecore-plugin-1.4-GA.jar
+END
+xwork-core-2.1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/WebContent/WEB-INF/lib/xwork-core-2.1.6.jar
+END

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="reportes" namespace="/reportes" extends="hibernate-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>           
+		<interceptors>
+			<interceptor name="chksession" class="com.maxcom.ai.interceptor.SessionInterceptor" />
+		</interceptors>		
+		<global-results>
+			<result name="session" type="redirect"><param name="location">/</param></result>
+		</global-results>			
+        <action name="consultarReportes" method="consultarReportes" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">consultaReportes</result>
+            <result name="input" type="tiles">consultaReportes</result>
+        </action>
+        <action name="generarReporte" method="generarReporte" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">consultaReportes</result>
+            <result name="input" type="tiles">consultaReportes</result>
+         </action>
+        <action name="generarGrafica"  method="generarGrafica" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+			<result name="success" >/WEB-INF/paginas/Reportes/graficas.jsp</result>
+			<result name="input" >/WEB-INF/paginas/Reportes/graficas.jsp</result>
+		</action>
+		<action name="generarReporteTxtCsv"  method="generarReporteTxtCsv" class="com.maxcom.ai.action.reportes.ReportesAction">
+			<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+			<result name="success" >session</result>
+			<result name="input" >session</result>
+		</action> 
+         <action name="reportes" method="reportes" class="com.maxcom.ai.action.reportes.ReportesAction">
+         	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">reportes</result>
+            <result name="input" type="tiles">reportes</result>
+        </action>
+        <action name="agregarEditarReporte" method="agregarEditarReporte" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Reportes/reportes.jsp</result>
+            <result name="input">/WEB-INF/paginas/Reportes/reportes.jsp</result>
+        </action>
+        <action name="datosReporte" method="datosReporte" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Reportes/agregarEditarReportes.jsp</result>
+            <result name="input">/WEB-INF/paginas/Reportes/agregarEditarReportes.jsp</result>
+        </action>
+        <action name="eliminarReporte" method="eliminarReporte" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/Reportes/listaReportes.jsp</result>
+            <result name="input">/WEB-INF/paginas/Reportes/listaReportes.jsp</result>
+        </action>
+        <action name="detalleReporte" method="detalleReporte" class="com.maxcom.ai.action.reportes.ReportesAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Reportes/detalleReporte.jsp</result>
+            <result name="input">/WEB-INF/paginas/Reportes/detalleReporte.jsp</result>
+        </action>
+    </package>	
+</struts>

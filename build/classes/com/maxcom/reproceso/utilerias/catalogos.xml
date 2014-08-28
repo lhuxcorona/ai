@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="catalogos" namespace="/catalogos" extends="hibernate-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>           
+		<interceptors>
+			<interceptor name="chksession" class="com.maxcom.ai.interceptor.SessionInterceptor" />
+		</interceptors>		
+		<global-results>
+			<result name="session" type="redirect"><param name="location">/</param></result>
+		</global-results>			
+		<action name="puntosDeControl" method="puntosDeControl" class="com.maxcom.ai.action.PuntoControlAction">
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success" type="tiles">puntosDeControl</result>
+            <result name="input" type="tiles">puntosDeControl</result>
+        </action>
+        <action name="agregarEditarPC" method="agregarEditarPC" class="com.maxcom.ai.action.PuntoControlAction">
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/puntosDeControl.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/puntosDeControl.jsp</result>
+        </action>
+        <action name="datosPC" method="datosPC" class="com.maxcom.ai.action.PuntoControlAction">
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/agregarEditarPC.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/agregarEditarPC.jsp</result>
+        </action>
+        <action name="eliminarPC" method="eliminarPC" class="com.maxcom.ai.action.PuntoControlAction">
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation" />
+            <result name="success">/WEB-INF/paginas/PuntoControl/listaPC.jsp</result>
+            <result name="input">/WEB-INF/paginas/PuntoControl/listaPC.jsp</result>
+        </action>
+    </package>	
+</struts>

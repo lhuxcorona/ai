@@ -1,0 +1,61 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/WebContent/WEB-INF
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-25T00:11:10.392000Z
+54
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+tiles.xml
+file
+
+
+
+
+2012-10-24T18:36:56.719592Z
+901ca1ee57195eff022559988c412a88
+2012-10-24T18:29:40.418000Z
+52
+admin
+
+paginas
+dir
+
+reportes
+dir
+
+lib
+dir
+
+web.xml
+file
+
+
+
+
+2012-10-24T18:19:36.818595Z
+b432ca3c2fd6d0b445a31ca530d065e3
+2012-10-09T15:14:33.747000Z
+8
+admin
+

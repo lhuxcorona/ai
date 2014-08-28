@@ -1,0 +1,52 @@
+8
+
+dir
+54
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM/ai/src/com/maxcom/reproceso/utilerias
+https://uanl_imp.popocatepetl.local:8443/svn/MAXCOM
+
+
+
+2012-10-19T23:18:20.324500Z
+36
+admin
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e627db8f-816b-fd44-8509-ebe7411a7790
+
+Utilerias.java
+file
+
+
+
+
+2012-10-24T18:19:29.445595Z
+f0d85dffa655629e87f1cb88e642e2cd
+2012-10-19T23:18:20.324500Z
+36
+admin
+
+catalogos.xml
+file
+
+
+
+
+2012-10-24T18:19:29.448595Z
+d6f4538c2d0be4307f3317b2e2e13bcb
+2012-10-09T15:14:33.747000Z
+8
+admin
+

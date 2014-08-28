@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MAXCOM/!svn/ver/41/ai/src/com/maxcom/ai/action/catalogos
+END
+ConfiguracionReglasAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/MAXCOM/!svn/ver/83/ai/src/com/maxcom/ai/action/catalogos/ConfiguracionReglasAction.java
+END
+PuntoControlAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/MAXCOM/!svn/ver/71/ai/src/com/maxcom/ai/action/catalogos/PuntoControlAction.java
+END
+package.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MAXCOM/!svn/ver/8/ai/src/com/maxcom/ai/action/catalogos/package.properties
+END
+TarifasAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/MAXCOM/!svn/ver/94/ai/src/com/maxcom/ai/action/catalogos/TarifasAction.java
+END
+ReglasAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/MAXCOM/!svn/ver/73/ai/src/com/maxcom/ai/action/catalogos/ReglasAction.java
+END
+CentralesAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/MAXCOM/!svn/ver/91/ai/src/com/maxcom/ai/action/catalogos/CentralesAction.java
+END

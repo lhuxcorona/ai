@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/MAXCOM/!svn/ver/46/ai/src/com/maxcom/ai/domain
+END
+MapeoReglas.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/domain/MapeoReglas.java
+END
+MapeoArchivos.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/MAXCOM/!svn/ver/8/ai/src/com/maxcom/ai/domain/MapeoArchivos.java
+END
+PuntosDeControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MAXCOM/!svn/ver/18/ai/src/com/maxcom/ai/domain/PuntosDeControl.java
+END
+Reportes.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/domain/Reportes.java
+END
+Menu.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/MAXCOM/!svn/ver/26/ai/src/com/maxcom/ai/domain/Menu.java
+END
+TipoCodificacion.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/MAXCOM/!svn/ver/8/ai/src/com/maxcom/ai/domain/TipoCodificacion.java
+END
+Perfiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/26/ai/src/com/maxcom/ai/domain/Perfiles.java
+END
+Usuarios.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/37/ai/src/com/maxcom/ai/domain/Usuarios.java
+END
+TipoLlamadas.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/MAXCOM/!svn/ver/8/ai/src/com/maxcom/ai/domain/TipoLlamadas.java
+END
+Graficas.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/domain/Graficas.java
+END
+TipoCliente.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/MAXCOM/!svn/ver/8/ai/src/com/maxcom/ai/domain/TipoCliente.java
+END
+Centrales.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/MAXCOM/!svn/ver/88/ai/src/com/maxcom/ai/domain/Centrales.java
+END
+ReglasNegocio.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/MAXCOM/!svn/ver/18/ai/src/com/maxcom/ai/domain/ReglasNegocio.java
+END
+LogApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/MAXCOM/!svn/ver/59/ai/src/com/maxcom/ai/domain/LogApp.java
+END
+Tarifas.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/MAXCOM/!svn/ver/18/ai/src/com/maxcom/ai/domain/Tarifas.java
+END

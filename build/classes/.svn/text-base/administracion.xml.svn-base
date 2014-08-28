@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="administracion" namespace="/administracion" extends="hibernate-default">
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>           
+		<interceptors>
+			<interceptor name="chksession" class="com.maxcom.ai.interceptor.SessionInterceptor" />
+		</interceptors>		
+		<global-results>
+			<result name="session" type="redirect"><param name="location">/</param></result>
+		</global-results>	
+		 <!-- ************************************ ABC Usuarios ************************************ -->
+        <action name="usuarios" method="usuarios" class="com.maxcom.ai.action.administracion.UsuariosAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">usuarios</result>
+            <result name="input" type="tiles">usuarios</result>
+        </action>
+        
+        <action name="agregarEditarUsuario" method="agregarEditarUsuario" class="com.maxcom.ai.action.administracion.UsuariosAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Usuarios/usuarios.jsp</result>
+            <result name="input">/WEB-INF/paginas/Usuarios/usuarios.jsp</result>
+        </action>
+                
+        <action name="datosUsuario" method="datosUsuario" class="com.maxcom.ai.action.administracion.UsuariosAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Usuarios/agregarEditarUsuario.jsp</result>
+            <result name="input">/WEB-INF/paginas/Usuarios/agregarEditarUsuario.jsp</result>
+        </action>
+        <action name="eliminarUsuario" method="eliminarUsuario" class="com.maxcom.ai.action.administracion.UsuariosAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Usuarios/listaUsuarios.jsp</result>
+            <result name="input">/WEB-INF/paginas/Usuarios/listaUsuarios.jsp</result>
+        </action>
+        
+        <!-- ************************************ ABC Perfiles ************************************ -->
+        <action name="perfiles" method="perfiles" class="com.maxcom.ai.action.administracion.PerfilAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" type="tiles">perfiles</result>
+            <result name="input" type="tiles">perfiles</result>
+        </action>
+        <action name="agregarEditarPerfil" method="agregarEditarPerfil" class="com.maxcom.ai.action.administracion.PerfilAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success">/WEB-INF/paginas/Perfiles/perfiles.jsp</result>
+            <result name="input">/WEB-INF/paginas/Perfiles/perfiles.jsp</result>
+        </action>
+        <action name="verPermisos" method="verPermisos" class="com.maxcom.ai.action.administracion.PerfilAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" >/WEB-INF/paginas/Perfiles/permisos.jsp</result>
+            <result name="input" >/WEB-INF/paginas/Perfiles/permisos.jsp</result>
+        </action>
+         <action name="eliminarPerfil" method="eliminarPerfil" class="com.maxcom.ai.action.administracion.PerfilAction">
+         	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" >/WEB-INF/paginas/Perfiles/listaPerfil.jsp</result>
+            <result name="input" >/WEB-INF/paginas/Perfiles/listaPerfil.jsp</result>
+        </action>
+        <action name="datosPerfil" method="datosPerfil" class="com.maxcom.ai.action.administracion.PerfilAction">
+        	<interceptor-ref name="chksession"/>
+        	<interceptor-ref name="defaultStackHibernateStrutsValidation"/>
+            <result name="success" >/WEB-INF/paginas/Perfiles/agregarEditarPerfil.jsp</result>
+            <result name="input" >/WEB-INF/paginas/Perfiles/agregarEditarPerfil.jsp</result>
+        </action>
+    </package>	
+</struts>

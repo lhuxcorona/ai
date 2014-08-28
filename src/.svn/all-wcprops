@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/MAXCOM/!svn/ver/54/ai/src
+END
+struts.properties
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/MAXCOM/!svn/ver/8/ai/src/struts.properties
+END
+log4jconfig.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/MAXCOM/!svn/ver/8/ai/src/log4jconfig.properties
+END
+reproceso.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/MAXCOM/!svn/ver/60/ai/src/reproceso.xml
+END
+reportes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/MAXCOM/!svn/ver/60/ai/src/reportes.xml
+END
+administracion.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/MAXCOM/!svn/ver/60/ai/src/administracion.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/MAXCOM/!svn/ver/8/ai/src/struts.xml
+END
+monitoreo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/MAXCOM/!svn/ver/60/ai/src/monitoreo.xml
+END
+catalogos.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/MAXCOM/!svn/ver/64/ai/src/catalogos.xml
+END
+displaytag.properties
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/MAXCOM/!svn/ver/8/ai/src/displaytag.properties
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/MAXCOM/!svn/ver/49/ai/src/hibernate.cfg.xml
+END
